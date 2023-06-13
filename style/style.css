@@ -9,3 +9,7 @@
     text-align: center;
     margin: 0 auto;
 }
+
+.my-textbox ul li {
+    list-style: none;
+}
