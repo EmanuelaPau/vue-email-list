@@ -13,17 +13,16 @@ createApp({
                 .then((response) => {
                     const result = response.data;
                     console.log(result.response);
-                    this.emailsList.push(result)
+                    this.emailsList.push(result.response);
                 });
         }
-
-
     },
 
     created() {
         for (let i = 0; i < 10; i++) {
             this.getRandomEmail();
         }
+        console.log(this.emailsList);
 
     }
 }).mount('#app');  
