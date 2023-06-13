@@ -1,4 +1,11 @@
 .my_title {
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-textbox {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
 }

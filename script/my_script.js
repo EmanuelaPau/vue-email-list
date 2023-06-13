@@ -15,6 +15,9 @@ createApp({
                 });
         }
 
+    },
+
+    created() {
+        this.getRandomEmail();
     }
-}
-}).mount('#app')  
+}).mount('#app');  
