@@ -30,7 +30,7 @@
             <h1 class="my_title">10 Emails generator </h1>
             <div class="my-textbox">
                 <ul>
-                    <li v-for="item in emailsList" >{{emailsList[item]}}</li>
+                    <li v-for="(item, index) in emailsList" >{{emailsList[index]}}</li>
                 </ul>
             </div>
         </div>
